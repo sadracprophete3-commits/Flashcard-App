@@ -21,7 +21,6 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_below="@id/flashcard_question"
-        android:layout_marginTop="-6dp"
         android:background="#2196F3"
         android:gravity="center"
         android:text="Barack Obama"
@@ -35,7 +34,6 @@
         android:layout_below="@id/flashcard_question"
         android:layout_alignEnd="@id/flashcard_answer"
         android:layout_marginTop="144dp"
-        android:layout_marginEnd="0dp"
         android:background="#FFEB3B"
         android:gravity="center"
         android:text="Bill Clinton"
@@ -47,8 +45,6 @@
         android:layout_height="200dp"
         android:layout_below="@id/flashcard_question"
         android:layout_alignEnd="@id/flashcard_answer"
-        android:layout_marginTop="336dp"
-        android:layout_marginEnd="-3dp"
         android:background="#E91E63"
         android:gravity="center"
         android:text="Goerge H W. Bush"
@@ -63,10 +59,11 @@
         android:layout_gravity="center" />
     <TextView
         android:id="@+id/tvName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:text="Clique pour afficher"
-        android:textSize="22sp"
+        android:gravity="center"
+        android:textSize="40sp"
         android:layout_marginTop="30dp"
         android:layout_gravity="center" />
 </RelativeLayout>

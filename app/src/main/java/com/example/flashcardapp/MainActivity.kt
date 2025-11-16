@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val flashcardQuestion = findViewById<TextView>(R.id.flashcard_question)
         val flashcardAnswer = findViewById<TextView>(R.id.flashcard_answer)
         flashcardQuestion.setOnClickListener {
-            flashcardQuestion.visibility = View.INVISIBLE
+            flashcardQuestion.visibility = View.GONE
             flashcardAnswer.visibility = View.VISIBLE
         }
         val btnClick = findViewById<Button>(R.id.btnClick)
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             tvName.text = names[index]
             index++
 
-            if (index == names.200) {
+            if (index == names.size) {
                 index = 0   // recommence quand on arrive à la fin
             }
         }
