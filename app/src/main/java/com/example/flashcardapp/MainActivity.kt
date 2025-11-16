@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         val tvName = findViewById<TextView>(R.id.tvName)
 
         val names = listOf(
+            "Who is the 44th President of the United States?",
             "Barack Obama",
             "Bill Clinton",
             "George H. W. Bush"
