@@ -13,6 +13,7 @@
         android:layout_height="200dp"
         android:background="#9C27B0"
         android:gravity="center"
+        android:visibility="gone"
         android:text="Who is the 44th President of the United States?"
         android:textSize="40sp" />
 
