@@ -25,6 +25,7 @@
         android:background="#2196F3"
         android:gravity="center"
         android:text="Barack Obama"
+        android:visibility="invisible"
         android:textCursorDrawable="@id/flashcard_answer"
         android:textSize="40sp" />
 
@@ -38,6 +39,7 @@
         android:background="#FFEB3B"
         android:gravity="center"
         android:text="Bill Clinton"
+        android:visibility="gone"
         android:textSize="40sp" />
 
     <TextView
@@ -50,6 +52,7 @@
         android:background="#E91E63"
         android:gravity="center"
         android:text="Goerge H W. Bush"
+        android:visibility="gone"
         android:textSize="40sp" />
     <Button
         android:id="@+id/btnClick"

@@ -3,6 +3,7 @@ package com.example.flashcardapp
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val flashcardQuestion = findViewById<TextView>(R.id.flashcard_question)
         val flashcardAnswer = findViewById<TextView>(R.id.flashcard_answer)
-        flashcardQuestion.setOnclickListener {
+        flashcardQuestion.setOnClickListener {
             flashcardQuestion.visibility = View.INVISIBLE
             flashcardAnswer.visibility = View.VISIBLE
         }
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             tvName.text = names[index]
             index++
 
-            if (index == names.size) {
+            if (index == names.200) {
                 index = 0   // recommence quand on arrive à la fin
             }
         }
