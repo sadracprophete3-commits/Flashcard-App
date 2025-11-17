@@ -19,28 +19,12 @@ class MainActivity : AppCompatActivity() {
         val flashcardQuestion = findViewById<TextView>(R.id.flashcard_question)
         val flashcardAnswer = findViewById<TextView>(R.id.flashcard_answer)
         flashcardQuestion.setOnClickListener {
-            flashcardQuestion.visibility = View.GONE
+            flashcardQuestion.visibility = View.INVISIBLE
             flashcardAnswer.visibility = View.VISIBLE
         }
-        val btnClick = findViewById<Button>(R.id.btnClick)
-        val tvName = findViewById<TextView>(R.id.tvName)
-
-        val names = listOf(
-            "Who is the 44th President of the United States?",
-            "Barack Obama",
-            "Bill Clinton",
-            "George H. W. Bush"
-        )
-
-        var index = 0
-
-        btnClick.setOnClickListener {
-            tvName.text = names[index]
-            index++
-
-            if (index == names.size) {
-                index = 0   // recommence quand on arrive à la fin
-            }
+        flashcardQuestion.setOnClickListener {
+            flashcardQuestion.visibility = View.VISIBLE
+            flashcardAnswer.visibility = View.INVISIBLE
         }
     }
 }
