@@ -27,9 +27,9 @@
         android:textColor="b0c4b1"
         android:gravity="center"
         android:text="Barack Obama"
-        android:textCursorDrawable="@id/flashcard_answer"
+        android:textCursorDrawable="@id/flashcard_ansit wer"
         android:textSize="40sp"
-        android:visibility="invisible" />
+        android:visibility="invisible"/>
 
     <TextView
         android:id="@+id/tvName"
@@ -55,7 +55,7 @@
         android:padding="10dp"
         android:text="George H.W Bush"
         android:textColor="#000000"
-        android:textSize="40sp" />
+        android:textSize="40sp"/>
 
     <TextView
         android:id="@+id/tvName"
@@ -68,9 +68,9 @@
         android:padding="10dp"
         android:text="Barack Obama"
         android:textColor="#000000"
-        android:textSize="40sp" />
+        android:textSize="40sp"/>
     <<ImageView
-    android:layout_width="40dp"
+    android:layout_width="match_parent"
     android:layout_height="40dp"
     android:id="@+id/toggle_choices_visibility"
     android:src="@drawable/hide_icon"
