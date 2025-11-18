@@ -27,4 +27,5 @@ class MainActivity : AppCompatActivity() {
             flashcardAnswer.visibility = View.INVISIBLE
         }
     }
+
 }

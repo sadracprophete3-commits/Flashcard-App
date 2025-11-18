@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -12,7 +13,7 @@
         android:background="@drawable/card_background"
         android:gravity="center"
         android:text="Who is the 44th President of the United States?"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="40sp" />
 
     <TextView
@@ -21,8 +22,9 @@
         android:layout_height="100dp"
         android:layout_below="@id/flashcard_question"
         android:layout_marginTop="30dp"
-        android:background="#ffbe0b"
+        android:background="#4CAF50"
         android:gravity="center"
+        android:padding="16dp"
         android:text="Bill Clinton"
         android:textColor="#000000"
         android:textSize="40sp" />
@@ -31,10 +33,11 @@
         android:id="@+id/flashcard_answer2"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_below="@id/flashcard_answer1"
-        android:layout_marginTop="30dp"
-        android:background="#ffbe0b"
+        android:layout_below="@id/flashcard_question"
+        android:layout_marginTop="187dp"
+        android:background="#4CAF50"
         android:gravity="center"
+        android:padding="16dp"
         android:text="George H.W Bush"
         android:textColor="#000000"
         android:textSize="40sp" />
@@ -43,12 +46,24 @@
         android:id="@+id/flashcard_answer3"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_below="@id/flashcard_answer2"
-        android:layout_marginTop="30dp"
-        android:background="#ffbe0b"
+        android:layout_below="@id/flashcard_question"
+        android:layout_marginTop="347dp"
+        android:background="#4CAF50"
         android:gravity="center"
+        android:padding="16dp"
         android:text="Barack Obama"
         android:textColor="#000000"
         android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/toggle_choices_visibility"
+        android:layout_width="78dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/flashcard_answer3"
+        android:layout_alignRight="image"
+        android:layout_marginTop="166dp"
+        android:foregroundGravity="center_horizontal"
+        android:scrollbarSize="@dimen/cardview_default_elevation"
+        android:src="@drawable/hide_icon" />
 
 </RelativeLayout>
