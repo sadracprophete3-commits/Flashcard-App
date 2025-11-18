@@ -19,12 +19,12 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_below="@id/flashcard_question"
         android:layout_marginTop="58dp"
-        android:background="#4CAF50"
+        android:background="#ffbe0b"
         android:gravity="center"
         android:padding="16dp"
         android:text="Bill Clinton"
@@ -32,12 +32,12 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/flashcard_answer1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_below="@id/flashcard_question"
         android:layout_marginTop="180dp"
-        android:background="#4CAF50"
+        android:background="#ffbe0b"
         android:gravity="center"
         android:padding="16dp"
         android:text="George H.W Bush"
@@ -45,12 +45,12 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/flashcard_answer3"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_below="@id/flashcard_question"
         android:layout_marginTop="310dp"
-        android:background="#4CAF50"
+        android:background="#ffbe0b"
         android:gravity="center"
         android:padding="16dp"
         android:text="Barack Obama"
